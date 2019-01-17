@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <main-class>io.nbs.urus.App</main-class>
+        <main-class>io.nbs.sm.App</main-class>
         <!-- dependency version -->
         <ipfs.api.version>v1.2.0</ipfs.api.version>
         <logback.version>1.2.3</logback.version>
@@ -33,7 +33,7 @@
     </dependencies>
 
     <build>
-        <finalName>${artifactId}-${version}</finalName>
+        <finalName>${artifactId}</finalName>
        
         <plugins>
             <plugin>
